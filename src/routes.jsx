@@ -5,6 +5,7 @@ import IPhone from "./components/iPhone/iPhone";
 import IPad from "./components/iPad/iPad";
 import Mac from "./components/Mac/Mac";
 import Watch from "./components/Watch/Watch";
+import Accessories from "./components/Accessories/Accessories";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "/watch",
         element: <Watch />,
+      },
+      {
+        path: "/accessories",
+        element: <Accessories />,
       },
     ],
   },

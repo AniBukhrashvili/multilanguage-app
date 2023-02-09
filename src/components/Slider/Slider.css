@@ -1,0 +1,11 @@
+img {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: transform 0.5s ease-out;
+}
